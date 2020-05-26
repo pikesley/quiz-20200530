@@ -1,0 +1,7 @@
+complete -W "\`grep -oE '^[a-zA-Z0-9_.-]+:([^=]|$)' Makefile | sed 's/[^a-zA-Z0-9_.-]*$//'\`" make
+
+c () {
+    echo "\[$(tput setaf ${1})\]${2}\[$(tput sgr0)\]"
+}
+
+export PS1="$(c 3 [)$(c 5 quiz)$(c 3 ]) $(c 6 \#) "

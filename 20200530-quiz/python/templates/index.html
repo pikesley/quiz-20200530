@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Virtual Pub Quiz</title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/simple.css" id="theme">
+
+    <style>
+        .reveal {
+            font-family: "News Cycle";
+        }
+
+        .reveal ul {
+            font-size: 0.8em;
+        }
+
+        h3,
+        img {
+            display: inline;
+            vertical-align: middle;
+        }
+    </style>
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-background="BACKGROUND_IMAGE">
+
+                <iframe width="1000" height="562" data-src="https://www.youtube.com/embed/kKhnVvHWJ3A?rel=0"></iframe>
+
+            </section>
+            <section data-background="BACKGROUND_IMAGE">
+                <h2>Welcome to this week's</h2>
+                <h1>Virtual Pub Quiz</h1>
+            </section>
+            CONTENT
+        </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+            transition: 'convex',
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+premise: Identify the following Highway Code symbols
+pictures:
+  '01': Level crossing without barrier
+  '02': No motor vehicles
+  '03': National speed limit applies
+  '04': Side winds
+  '05': Uneven road
+  '06': No vehicles carrying explosives
+  '07': Minimum speed
+  '08': Level crossing with barrier or gate ahead
+  '09': No overtaking
+  '10': No waiting

@@ -1,0 +1,22 @@
+premise: In which year of the 90s
+events:
+  - year: 1990
+    event: did Tim Berners-Lee publish the very first website at CERN?
+  - year: 1991
+    event: did Nirvana release Nevermind?
+  - year: 1992
+    event: was the Maastricht Treaty signed?
+  - year: 1993
+    event: was the Waco Siege?
+  - year: 1994
+    event: did Nelson Mandela become president of South Africa?
+  - year: 1995
+    event: did Barings Bank collapse?
+  - year: 1996
+    event: did the Spice Girls have their first number 1 single?
+  - year: 1997
+    event: did IBM's Deep Blue defeat chess Grandmaster Garry Kasparov?
+  - year: 1998
+    event: was the Good Friday Agreement signed?
+  - year: 1999
+    event: did Chelsea field the first ever all-foreign Premier League starting XI?
